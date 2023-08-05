@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('./music.webp');
+    background-size: cover;
+    height: 100vh;
+}
+
+.keys {
+    width: 800px;
+    margin: 40% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keys .key {
+    margin: 5px 10px;
+    text-align: center;
+    background: #0075ff;
+    padding: 5px 7px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.keys .key.active {
+    box-shadow: 0px -1px 5px 3px yellow
+}
+.keys .key span {
+    display: block;
+    color: rgb(227 229 14);
+    text-transform: uppercase;
+    font-size: 15px;
+}
